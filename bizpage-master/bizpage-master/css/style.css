@@ -340,6 +340,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 78px) {
+  #nav-menu-container {
+    display: none;
+  }
+}
+
 /* Nav Meu Styling */
 .nav-menu a {
   padding: 0 8px 10px 8px;
