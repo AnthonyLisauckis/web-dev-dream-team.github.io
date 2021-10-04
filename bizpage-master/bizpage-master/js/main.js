@@ -134,8 +134,10 @@ jQuery(document).ready(function( $ ) {
   // jQuery counterUp (used in Facts section)
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 1000
+    time: 1000,
+    beginAt: 0
   });
+
 
   // Porfolio isotope and filter
   var portfolioIsotope = $('.portfolio-container').isotope({
