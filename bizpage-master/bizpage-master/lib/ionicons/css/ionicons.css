@@ -343,6 +343,8 @@
 
 .ion-battery-low:before { content: "\f115"; }
 
+.ion-build:before { content: "\f100"}
+
 .ion-beaker:before { content: "\f269"; }
 
 .ion-beer:before { content: "\f26a"; }
